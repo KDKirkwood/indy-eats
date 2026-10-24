@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indy Eats - American</title>
+
+    <!-- external styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal styling -->
+    <style>
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 35px;
+            margin: 20px 0 0 40px;
+        }
+
+        .card {
+            position: relative;
+            width: 215px;
+            height: 170px;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            overflow: hidden;
+            background-image: url("images/american.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card span {
+            display: block;
+            background-color: bisque;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 2px 0;
+            margin: 8px 3px 0 3px;
+        }
+
+        .address {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>American</h1>
+
+    <div class="panel">
+
+        <a class="home-link" href="index.html"><img src="images/home.jpg" alt="Home"></a>
+
+        <div class="details">
+            <div class="card"><span>St. Elmo Steak House</span></div>
+
+            <div class="address">
+                127 South Illinois Street<br>
+                Indianapolis, IN 46225<br>
+                Phone - (317) 635-0636
+            </div>
+        </div>
+
+        <p style="margin-top: 40px;"><em>St. Elmo Steak House</em> started in 1902 when Joe Stahr opened a saloon downtown called Joe Stahr's Tavern. The name was shortened to St. Elmo later on. It is best known for its shrimp cocktail with the strong horseradish sauce, and the James Beard Foundation named it an America's Classic. The original brick building and tiger oak bar are still there.</p>
+
+    </div>
+
+</body>
+</html>

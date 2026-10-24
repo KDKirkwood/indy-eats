@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indy Eats</title>
+
+    <!-- external styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal styling -->
+    <style>
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .card {
+            display: block;
+            position: relative;
+            width: 180px;
+            height: 165px;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+            text-decoration: none;
+            color: black;
+        }
+
+        .card span {
+            display: block;
+            background-color: bisque;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 2px 0;
+            margin: 8px 3px 0 3px;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            border-color: green;
+        }
+
+        .american { background-image: url("images/american.jpg"); }
+        .chinese  { background-image: url("images/chinese.jpg"); }
+        .greek    { background-image: url("images/greek.jpg"); }
+        .italian  { background-image: url("images/italian.jpg"); }
+    </style>
+</head>
+<body>
+
+    <h1>Best Eats In Indy</h1>
+
+    <div class="panel">
+
+        <div class="categories">
+            <a class="card american" href="american.html"><span>American</span></a>
+            <a class="card chinese" href="chinese.html"><span>Chinese</span></a>
+            <a class="card greek" href="greek.html"><span>Greek</span></a>
+            <a class="card italian" href="italian.html"><span>Italian</span></a>
+        </div>
+
+        <p style="margin-top: 50px;">These are the most popular food choices made by Hoosiers this week. Click the link and see the most awarded restaurants in Indiana. Choose from the categories displayed above.</p>
+
+    </div>
+
+</body>
+</html>

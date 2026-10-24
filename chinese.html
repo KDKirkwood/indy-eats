@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indy Eats - Chinese</title>
+
+    <!-- external styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal styling -->
+    <style>
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 35px;
+            margin: 20px 0 0 40px;
+        }
+
+        .card {
+            position: relative;
+            width: 215px;
+            height: 170px;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            overflow: hidden;
+            background-image: url("images/chinese.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card span {
+            display: block;
+            background-color: bisque;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 2px 0;
+            margin: 8px 3px 0 3px;
+        }
+
+        .address {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chinese</h1>
+
+    <div class="panel">
+
+        <a class="home-link" href="index.html"><img src="images/home.jpg" alt="Home"></a>
+
+        <div class="details">
+            <div class="card"><span>Imperial Palace</span></div>
+
+            <div class="address">
+                5510 Lafayette Road, Suite 230<br>
+                Indianapolis, IN 46254<br>
+                Phone - (317) 299-3388
+            </div>
+        </div>
+
+        <p style="margin-top: 40px;"><em>Imperial Palace</em> was named the best Chinese restaurant in Indiana by Love Food. People like the garlic chicken, beef with broccoli and orange shrimp, and the crab rangoon and egg rolls are popular starters. It also has weekday lunch sets that come with rice, a spring roll and an entree.</p>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indy Eats - Italian</title>
+
+    <!-- external styling -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal styling -->
+    <style>
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 35px;
+            margin: 20px 0 0 40px;
+        }
+
+        .card {
+            position: relative;
+            width: 215px;
+            height: 170px;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            overflow: hidden;
+            background-image: url("images/italian.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card span {
+            display: block;
+            background-color: bisque;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 2px 0;
+            margin: 8px 3px 0 3px;
+        }
+
+        .address {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Italian</h1>
+
+    <div class="panel">
+
+        <a class="home-link" href="index.html"><img src="images/home.jpg" alt="Home"></a>
+
+        <div class="details">
+            <div class="card"><span>Mama Carolla's</span></div>
+
+            <div class="address">
+                1031 East 54th Street<br>
+                Indianapolis, IN 46220<br>
+                Phone - (317) 259-9412
+            </div>
+        </div>
+
+        <p style="margin-top: 40px;"><em>Mama Carolla's</em> opened in 1997 in an old stucco house near the Monon Trail. Each room in the house is a small dining room, which gives it a cozy feel. Popular dishes include the steamed mussels and Holly's artichoke fritters. It takes reservations on a limited basis and seats the rest of the tables first come, first served.</p>
+
+    </div>
+
+</body>
+</html>
